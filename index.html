@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Thi 2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="score">
+          <p>Players: <span class="count-player">0</span></p>
+          <p>Total Points: <span class="count-point">0</span></p>
+        </div>
+        <h2 class="title">Rikkei Scoreboard</h2>
+        <div class="watch">
+          <p><b>Stopwatch</b></p>
+          <p class="time">0 s</p>
+          <a href="#" class="btn start">start</a>
+          <a href="#" style="display: none;" class="btn stop">stop</a>
+          <a href="#" class="btn reset">reset</a>
+        </div>
+      </header>
+      <ul class="result">
+        <!-- <li>
+          <div class="name-player">
+            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-crown"></i>
+            <p><b>Minh Cường</b></p>
+          </div>
+          <div class="result-action">
+            <i class="fa-solid fa-minus cal"></i>
+            <p class="number">0</p>
+            <i class="fa-solid fa-plus cal"></i>
+          </div>
+        </li> -->
+      </ul>
+      <div class="action">
+        <input type="text" placeholder="Please enter your name player">
+        <div><button class="btn">Add Player</button></div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
